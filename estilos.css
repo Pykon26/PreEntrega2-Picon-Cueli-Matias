@@ -234,3 +234,71 @@ footer a {
     background-color: #ffe467;
 
 }
+
+.contacto{
+    display: flex;
+       background-image: url(../img/bienvenido.jpg);
+       height: 100vh;
+       width: 100%;
+   justify-content: space-evenly;
+   align-items: center;
+}   
+
+.contc{
+    height: 450px;
+    width: 650px;
+font-family: 500px'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+background-color: #ffe367e5;
+
+border-radius: 10%;
+text-align: center;
+
+}
+
+.video{
+    box-shadow: inset 500px 800px 500px gold;
+}
+
+.paginaNosotros{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/local.jpg);
+}
+
+.FreshManifiesto{
+    display: flex;
+    margin: 200px;
+flex-direction: row-reverse  ;
+flex-wrap: wrap;
+justify-content: center right;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.paginaubicacion{
+    height: 100vh;
+    width: 100%;
+    background-image:url(../img/244404656_1482458862121576_9093992704945517272_n.jpeg) ;
+    background-size: contain;
+
+}
+
+.paginaubicacion p{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: none;
+    padding: 100px;
+    margin-left: 580px;
+  width: 40%;
+  text-align: center;   
+  text-decoration: double currentColor;
+  
+
+}
+
+.mapa{
+    display: block;
+    margin-top: 50px;
+}
