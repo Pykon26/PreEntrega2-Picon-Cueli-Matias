@@ -88,7 +88,7 @@ background-color: rgba(0, 0, 0, 0.726);
 
 
 
-.container-fluid{
+.fondo{
     background-image: url(./img/Fresh.jpg);
     background-position: center;
     height: 100vh;
@@ -159,7 +159,7 @@ background-color: rgba(0, 0, 0, 0.726);
 footer{
     height: 100px;
     width:  100% ;
-    background-color: #ffe467;
+    background-color: rgb(47, 218, 161);
     font-size: 20px;
     padding: 0px;
     font-family: 'Contrail One', cursive;
@@ -168,7 +168,69 @@ footer{
 
 footer a {
 
-    color: coral;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     letter-spacing: 20px;
+}
+
+.img-rem{
+
+    background-image: url(./img/remera.jpg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffe467;
+
+}
+
+
+
+.titulo-rem{
+    background-color: #f3c807;
+    background-image: url(./img/fondoProductos.jpg);
+    background-size: contain;
+    
+    padding-top: 200px;
+    text-align: center;
+    font-family:'Contrail One';
+    text-shadow: 20px 0 0 rgb(0, 0, 0);   
+    color: white;
+}
+
+.titulo-rem :hover{
+
+    transition: 2.0s;
+    color: rgb(47, 218, 161);
+
+}
+
+.img-buzo{
+       background-image: url(./img/buzo.jpg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffe467;
+
+}
+
+.img-pantoles{
+    background-image: url(./img/pantalon.jpg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffe467;
+
+}
+
+.img-gorra{
+    background-image: url(./img/gorra.jpg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffe467;
+
 }
