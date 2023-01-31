@@ -39,3 +39,23 @@ background-color: rgba(0, 0, 0, 0.726);
     background-color: coral;
   }
 
+  .nav-item a:hover{
+    transition: 0.8s;
+    font-size: 28px;
+    color: rgb(47, 218, 161);
+
+  }
+
+ 
+  #navgedadorentero{
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+
+ 
+  }
+
+  .navbar li{
+    align-items: stretch;
+  }
+  
