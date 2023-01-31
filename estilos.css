@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:  #ffe467;
+    color: black;
+    font-size: 20px;
+    font-family: 'Contrail One', cursive;
+}
+.navbar-toggler{
+
+background-color: rgba(0, 0, 0, 0.726);    
+}
+
+.navbar-toggler i{
+
+    color: white;
+    font-size: 30px; 
+    }
+    
+
+.navbar a{
+    color: black;
+}
+
+.navbar span{
+    text-decoration: underline;
+}
+.imagenlogo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button span{
+
+    color: black;
+    background-color: coral;
+  }
+
