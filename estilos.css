@@ -55,7 +55,120 @@ background-color: rgba(0, 0, 0, 0.726);
  
   }
 
-  .navbar li{
-    align-items: stretch;
-  }
   
+  
+  .jumbotron{
+    background-color: #ffe467;
+    background-image: linear-gradient( #ffe467, rgb(47, 218, 161));
+    border-radius: 0%;
+    margin: 0;
+    text-align: center;
+    
+ 
+  }
+
+  .jumbotron h1{
+    font-family:'Contrail One';
+    text-shadow: 20px 0 0 rgb(30, 233, 165);    
+  }
+
+  .jumbotron p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+
+  h3{
+    background-image: linear-gradient( rgb(47, 218, 161), #ffffff);
+    height: 100px;
+    text-align: right;
+    padding-right: 70px;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif, cursive;
+  }
+
+
+
+.container-fluid{
+    background-image: url(./img/Fresh.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size:contain;
+}
+  .nuestrasmarcas{
+
+    padding-left: 50px;
+    width: 100%;
+    padding-top: 200px;
+
+
+  }
+
+.Kongo{
+    border: solid 5px #ffe467;
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+}
+.G_F{
+    border: solid 5px #ffe467;
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+}
+.Luxo{
+    border: solid 5px #ffe467;
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+
+}
+.H_W{
+    border: solid 5px #ffe467;
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+  
+}
+
+.img2{
+    height: 200px;
+    width: 200px;
+  
+}
+.img3{
+    height: 200px;
+    width: 200px;
+   
+}
+.img4{
+    height: 200px;
+    width: 200px;
+   
+}
+
+footer{
+    height: 100px;
+    width:  100% ;
+    background-color: #ffe467;
+    font-size: 20px;
+    padding: 0px;
+    font-family: 'Contrail One', cursive;
+    text-align: center;
+}
+
+footer a {
+
+    color: coral;
+    font-size: 40px;
+    letter-spacing: 20px;
+}
