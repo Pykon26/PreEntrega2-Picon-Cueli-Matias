@@ -147,61 +147,6 @@ footer a {
   background-color: #ffe467;
 }
 
-/* inicio del viejo css */
-.contc {
-  height: 450px;
-  width: 650px;
-  font-family: 500px "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 30px;
-  background-color: rgba(255, 227, 103, 0.8980392157);
-  border-radius: 10%;
-  text-align: center;
-}
-
-.video {
-  box-shadow: inset 500px 800px 500px gold;
-}
-
-.paginaNosotros {
-  height: 100vh;
-  width: 100%;
-  background-image: url(./img/local.jpg);
-}
-
-.FreshManifiesto {
-  display: flex;
-  margin: 200px;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: center right;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.paginaubicacion {
-  height: 100vh;
-  width: 100%;
-  background-image: url(./img/244404656_1482458862121576_9093992704945517272_n.jpeg);
-  background-size: contain;
-}
-
-.paginaubicacion p {
-  font-size: 20px;
-  color: aliceblue;
-  background-color: none;
-  padding: 100px;
-  margin-left: 580px;
-  width: 40%;
-  text-align: center;
-  text-decoration: double currentColor;
-}
-
-.mapa {
-  display: block;
-  margin-top: 50px;
-}
-
-/* Fin del viejo css */
 .carousel-inner img {
   max-width: 400px;
   height: auto;
@@ -278,6 +223,55 @@ footer a {
   .contactanos {
     margin-top: 0;
   }
+}
+.paginaNosotros {
+  padding: 0;
+  height: 2400px;
+  width: 100%;
+  background-image: url(./img/local.jpg);
+  padding-top: 50px;
+}
+.paginaNosotros .container {
+  width: 100%;
+}
+.paginaNosotros .row {
+  display: flex;
+  justify-content: center;
+}
+.paginaNosotros .col-sm-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.paginaNosotros h2 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  background-color: red;
+}
+
+.paginaubicacion {
+  height: 1000px;
+  width: 100%;
+  background-image: url(./img/244404656_1482458862121576_9093992704945517272_n.jpeg);
+  background-size: contain;
+  padding-top: 20px;
+  font-family: "Contrail One", cursive;
+}
+.paginaubicacion h2 {
+  color: rgb(231, 171, 59);
+}
+.paginaubicacion p {
+  color: white;
+  text-align: center;
+  margin-bottom: 180px;
+  font-size: 30px;
+  background-color: rgb(173, 36, 36);
+}
+.paginaubicacion h5 {
+  margin: 50px;
+  color: #dfdcd7;
 }
 
 /*# sourceMappingURL=estilos.css.map */
