@@ -275,9 +275,15 @@ footer{
     
 }
 
+@media only screen and (max-width: 767px) {
+  .paginaNosotros {
+    height: 2000px;
+  }
+}
+
 
 .paginaubicacion{
-  height: 1000px;
+  height: 1200px;
   width: 100%;
   background-image:url(./img/244404656_1482458862121576_9093992704945517272_n.jpeg) ;
   background-size: contain;
