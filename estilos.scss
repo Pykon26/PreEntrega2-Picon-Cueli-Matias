@@ -254,18 +254,19 @@ footer a {
 
 .paginaNosotros{
   padding: 0;
-  height: 2400px  ;
+  height: 2250px  ;
   width: 100%;
   background-image: url(./img/local.jpg);
   padding-top: 50px;
-
+  font-family: 'Contrail One', cursive;
 
     
     .container {
       width: 100%;
+      align-items: center;
     }
 
-    .row {
+    .row-manifiesto {
       display: flex;
       justify-content: center;
     }
@@ -279,10 +280,11 @@ footer a {
 
     h2 {
       margin-top: 20px;
-      color: white;
+      color: #b8e4ff;
       text-align: center;
-      background-color: red;
+      background-color: #ff8097      ;
     }
+    
 }
 
 
@@ -292,7 +294,7 @@ footer a {
   background-image:url(./img/244404656_1482458862121576_9093992704945517272_n.jpeg) ;
   background-size: contain;
   padding-top: 20px;
-   font-family: 'Contrail One', cursive;
+  font-family: 'Contrail One', cursive;
 
  h2 {
   color: rgb(231, 171, 59);

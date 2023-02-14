@@ -226,15 +226,17 @@ footer a {
 }
 .paginaNosotros {
   padding: 0;
-  height: 2400px;
+  height: 2250px;
   width: 100%;
   background-image: url(./img/local.jpg);
   padding-top: 50px;
+  font-family: "Contrail One", cursive;
 }
 .paginaNosotros .container {
   width: 100%;
+  align-items: center;
 }
-.paginaNosotros .row {
+.paginaNosotros .row-manifiesto {
   display: flex;
   justify-content: center;
 }
@@ -246,9 +248,9 @@ footer a {
 }
 .paginaNosotros h2 {
   margin-top: 20px;
-  color: white;
+  color: #b8e4ff;
   text-align: center;
-  background-color: red;
+  background-color: #ff8097;
 }
 
 .paginaubicacion {
