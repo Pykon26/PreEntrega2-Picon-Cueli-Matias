@@ -1,304 +1,283 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.navbar{
-    background-color:  #ffe467;
-    color: black;
-    font-size: 20px;
-    font-family: 'Contrail One', cursive;
-}
-.navbar-toggler{
-
-background-color: rgba(0, 0, 0, 0.726);    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar-toggler i{
-
-    color: white;
-    font-size: 30px; 
-    }
-    
-
-.navbar a{
-    color: black;
+.navbar {
+  background-color: #ffe467;
+  color: black;
+  font-size: 20px;
+  font-family: "Contrail One", cursive;
 }
 
-.navbar span{
-    text-decoration: underline;
+.navbar-toggler {
+  background-color: rgba(0, 0, 0, 0.726);
 }
+
+.navbar-toggler i {
+  color: white;
+  font-size: 30px;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar span {
+  text-decoration: underline;
+}
+
 .imagenlogo {
-    display: flex;
-    justify-content: center;
-  }
-
-  .button span{
-
-    color: black;
-    background-color: coral;
-  }
-
-  .nav-item a:hover{
-    transition: 0.8s;
-    font-size: 28px;
-    color: rgb(47, 218, 161);
-
-  }
-
- 
-  #navgedadorentero{
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: center;
-
- 
-  }
-
-  
-  
-  .jumbotron{
-    background-color: #ffe467;
-    background-image: linear-gradient( #ffe467, rgb(47, 218, 161));
-    border-radius: 0%;
-    margin: 0;
-    text-align: center;
-    
- 
-  }
-
-  .jumbotron h1{
-    font-family:'Contrail One';
-    text-shadow: 20px 0 0 rgb(30, 233, 165);    
-  }
-
-  .jumbotron p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-  }
-
-  h3{
-    background-image: linear-gradient( rgb(47, 218, 161), #ffffff);
-    height: 100px;
-    text-align: right;
-    padding-right: 70px;
-    text-decoration: underline;
-    font-family: 'Poppins', sans-serif, cursive;
-  }
-
-
-
-.fondo{
-    background-image: url(./img/Fresh.jpg);
-    background-position: center;
-    height: 100vh;
-    background-size:contain;
-}
-  .nuestrasmarcas{
-
-    padding-left: 50px;
-    width: 100%;
-    padding-top: 200px;
-
-
-  }
-
-.Kongo{
-    border: solid 5px #ffe467;
-    padding: 50px;
-    background-color: #ffffff;
-    text-align: center;
-    font-family: 'Contrail One', cursive;
-}
-.G_F{
-    border: solid 5px #ffe467;
-    padding: 50px;
-    background-color: #ffffff;
-    text-align: center;
-    font-family: 'Contrail One', cursive;
-}
-.Luxo{
-    border: solid 5px #ffe467;
-    padding: 50px;
-    background-color: #ffffff;
-    text-align: center;
-    font-family: 'Contrail One', cursive;
-
-}
-.H_W{
-    border: solid 5px #ffe467;
-    padding: 50px;
-    background-color: #ffffff;
-    text-align: center;
-    font-family: 'Contrail One', cursive;
-
+  display: flex;
+  justify-content: center;
 }
 
-.img1{
-    height: 200px;
-    width: 200px;
-  
+.button span {
+  color: black;
+  background-color: coral;
 }
 
-.img2{
-    height: 200px;
-    width: 200px;
-  
-}
-.img3{
-    height: 200px;
-    width: 200px;
-   
-}
-.img4{
-    height: 200px;
-    width: 200px;
-   
+.nav-item a:hover {
+  transition: 0.8s;
+  font-size: 28px;
+  color: rgb(47, 218, 161);
 }
 
-footer{
-    height: 100px;
-    width:  100% ;
-    background-color: rgb(47, 218, 161);
-    font-size: 20px;
-    padding: 0px;
-    font-family: 'Contrail One', cursive;
-    text-align: center;
+#navgedadorentero {
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #ffe467;
+  background-image: linear-gradient(#ffe467, rgb(47, 218, 161));
+  border-radius: 0%;
+  margin: 0;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-family: "Contrail One";
+  text-shadow: 20px 0 0 rgb(30, 233, 165);
+}
+
+.jumbotron p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.mismarcas {
+  background-image: linear-gradient(rgb(47, 218, 161), #ffffff);
+}
+
+h3 {
+  height: 100px;
+  text-align: left;
+  padding-right: 70px;
+  font-family: "Poppins", sans-serif, cursive;
+}
+
+footer {
+  height: 110px;
+  width: 100%;
+  background-color: rgb(47, 218, 161);
+  font-size: 20px;
+  margin: 0;
+  font-family: "Contrail One", cursive;
+  text-align: center;
 }
 
 footer a {
-
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-    letter-spacing: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  letter-spacing: 20px;
 }
 
-.img-rem{
-
-    background-image: url(./img/remera.jpg);
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ffe467;
-
+.img-rem {
+  background-image: url(./img/remera.jpg);
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffe467;
 }
 
-
-
-.titulo-rem{
-    background-color: #f3c807;
-    background-image: url(./img/fondoProductos.jpg);
-    background-size: contain;
-    
-    padding-top: 200px;
-    text-align: center;
-    font-family:'Contrail One';
-    text-shadow: 20px 0 0 rgb(0, 0, 0);   
-    color: white;
+.titulo-rem {
+  background-color: #f3c807;
+  background-image: url(./img/fondoProductos.jpg);
+  background-size: contain;
+  padding-top: 200px;
+  text-align: center;
+  font-family: "Contrail One";
+  text-shadow: 20px 0 0 rgb(0, 0, 0);
+  color: white;
 }
 
-.titulo-rem :hover{
-
-    transition: 2.0s;
-    color: rgb(47, 218, 161);
-
+.titulo-rem :hover {
+  transition: 2s;
+  color: rgb(47, 218, 161);
 }
 
-.img-buzo{
-       background-image: url(./img/buzo.jpg);
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ffe467;
-
+.img-buzo {
+  background-image: url(./img/buzo.jpg);
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffe467;
 }
 
-.img-pantoles{
-    background-image: url(./img/pantalon.jpg);
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ffe467;
-
+.img-pantoles {
+  background-image: url(./img/pantalon.jpg);
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffe467;
 }
 
-.img-gorra{
-    background-image: url(./img/gorra.jpg);
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ffe467;
-
+.img-gorra {
+  background-image: url(./img/gorra.jpg);
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffe467;
 }
 
-.contacto{
-    display: flex;
-       background-image: url(../img/bienvenido.jpg);
-       height: 100vh;
-       width: 100%;
-   justify-content: space-evenly;
-   align-items: center;
-}   
-
-.contc{
-    height: 450px;
-    width: 650px;
-font-family: 500px'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 30px;
-background-color: #ffe367e5;
-
-border-radius: 10%;
-text-align: center;
-
+/* inicio del viejo css */
+.contc {
+  height: 450px;
+  width: 650px;
+  font-family: 500px "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  background-color: rgba(255, 227, 103, 0.8980392157);
+  border-radius: 10%;
+  text-align: center;
 }
 
-.video{
-    box-shadow: inset 500px 800px 500px gold;
+.video {
+  box-shadow: inset 500px 800px 500px gold;
 }
 
-.paginaNosotros{
-    height: 100vh;
-    width: 100%;
-    background-image: url(../img/local.jpg);
+.paginaNosotros {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./img/local.jpg);
 }
 
-.FreshManifiesto{
-    display: flex;
-    margin: 200px;
-flex-direction: row-reverse  ;
-flex-wrap: wrap;
-justify-content: center right;
-justify-content: space-evenly;
-align-items: center;
-
+.FreshManifiesto {
+  display: flex;
+  margin: 200px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center right;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.paginaubicacion{
-    height: 100vh;
-    width: 100%;
-    background-image:url(../img/244404656_1482458862121576_9093992704945517272_n.jpeg) ;
-    background-size: contain;
-
+.paginaubicacion {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./img/244404656_1482458862121576_9093992704945517272_n.jpeg);
+  background-size: contain;
 }
 
-.paginaubicacion p{
-    font-size: 20px;
-    color: aliceblue;
-    background-color: none;
-    padding: 100px;
-    margin-left: 580px;
+.paginaubicacion p {
+  font-size: 20px;
+  color: aliceblue;
+  background-color: none;
+  padding: 100px;
+  margin-left: 580px;
   width: 40%;
-  text-align: center;   
+  text-align: center;
   text-decoration: double currentColor;
-  
-
 }
 
-.mapa{
-    display: block;
-    margin-top: 50px;
+.mapa {
+  display: block;
+  margin-top: 50px;
 }
+
+/* Fin del viejo css */
+.carousel-inner img {
+  max-width: 400px;
+  height: auto;
+  margin: 0;
+  background-color: rgb(223, 111, 71);
+  border: black solid 2px;
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px; /* Altura deseada para el carrusel */
+  background-image: url(./img/Fresh.jpg);
+  padding-right: 280px;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner img {
+    width: 300px;
+    height: 300px;
+    max-width: none;
+  }
+}
+.carousel-control {
+  background-color: red !important;
+  color: white !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .videocontacto .video-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .videocontacto video {
+    width: 100%;
+    height: auto;
+  }
+}
+.videocontacto {
+  margin: 0;
+  background-color: #dfdcd7;
+}
+
+.contacto {
+  background-image: url(./img/bienvenido.jpg);
+  font-family: "Contrail One", cursive;
+  text-align: center;
+  background-position: center;
+}
+.contacto span {
+  text-align: center;
+  width: auto;
+  color: rgb(245, 47, 3);
+  font-size: 35px;
+}
+.contacto p {
+  font-size: 30px;
+}
+
+.contactanos {
+  margin-top: 300px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5019607843);
+}
+
+@media only screen and (max-width: 767px) {
+  .contactanos {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
