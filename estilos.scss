@@ -8,26 +8,26 @@
     color: black;
     font-size: 20px;
     font-family: 'Contrail One', cursive;
+
+    a{
+      color: black;
+    }
+
+    span{
+      text-decoration: underline;
+    }
 }
 .navbar-toggler{
 
 background-color: rgba(0, 0, 0, 0.726);    
-}
 
-.navbar-toggler i{
+    i{
+      color: white;
+      font-size: 30px; 
+      }
+      
+ }    
 
-    color: white;
-    font-size: 30px; 
-    }
-    
-
-.navbar a{
-    color: black;
-}
-
-.navbar span{
-    text-decoration: underline;
-}
 .imagenlogo {
     display: flex;
     justify-content: center;
@@ -46,17 +46,12 @@ background-color: rgba(0, 0, 0, 0.726);
 
   }
 
- 
   #navgedadorentero{
     justify-content: space-between;
     align-items: flex-start;
-    text-align: center;
-
- 
+    text-align: center; 
   }
 
-  
-  
   .jumbotron{
     background-color: #ffe467;
     background-image: linear-gradient( #ffe467, rgb(47, 218, 161));
@@ -64,18 +59,17 @@ background-color: rgba(0, 0, 0, 0.726);
     margin: 0;
     text-align: center;
     
- 
+    h1{
+      font-family:'Contrail One';
+      text-shadow: 20px 0 0 rgb(30, 233, 165)
+    }
+
+    p{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+    }
   }
 
-  .jumbotron h1{
-    font-family:'Contrail One';
-    text-shadow: 20px 0 0 rgb(30, 233, 165);    
-  }
-
-  .jumbotron p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-  }
 .mismarcas{
     background-image: linear-gradient( rgb(47, 218, 161), #ffffff);
 
@@ -98,13 +92,11 @@ footer{
     font-family: 'Contrail One', cursive;
     text-align: center;
    
-}
-
-footer a {
-
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-    letter-spacing: 20px;
+    a{
+      color: rgb(0, 0, 0);
+      font-size: 40px;
+      letter-spacing: 20px;
+    }
 }
 
 .img-rem{
@@ -118,8 +110,6 @@ footer a {
 
 }
 
-
-
 .titulo-rem{
     background-color: #f3c807;
     background-image: url(./img/fondoProductos.jpg);
@@ -130,13 +120,11 @@ footer a {
     font-family:'Contrail One';
     text-shadow: 20px 0 0 rgb(0, 0, 0);   
     color: white;
-}
 
-.titulo-rem :hover{
-
-    transition: 2.0s;
-    color: rgb(47, 218, 161);
-
+    :hover{
+      transition: 2.0s;
+      color: rgb(47, 218, 161);
+    }
 }
 
 .img-buzo{

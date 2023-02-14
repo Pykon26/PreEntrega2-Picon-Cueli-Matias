@@ -10,22 +10,19 @@
   font-size: 20px;
   font-family: "Contrail One", cursive;
 }
+.navbar a {
+  color: black;
+}
+.navbar span {
+  text-decoration: underline;
+}
 
 .navbar-toggler {
   background-color: rgba(0, 0, 0, 0.726);
 }
-
 .navbar-toggler i {
   color: white;
   font-size: 30px;
-}
-
-.navbar a {
-  color: black;
-}
-
-.navbar span {
-  text-decoration: underline;
 }
 
 .imagenlogo {
@@ -57,12 +54,10 @@
   margin: 0;
   text-align: center;
 }
-
 .jumbotron h1 {
   font-family: "Contrail One";
   text-shadow: 20px 0 0 rgb(30, 233, 165);
 }
-
 .jumbotron p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -88,7 +83,6 @@ footer {
   font-family: "Contrail One", cursive;
   text-align: center;
 }
-
 footer a {
   color: rgb(0, 0, 0);
   font-size: 40px;
@@ -114,7 +108,6 @@ footer a {
   text-shadow: 20px 0 0 rgb(0, 0, 0);
   color: white;
 }
-
 .titulo-rem :hover {
   transition: 2s;
   color: rgb(47, 218, 161);
